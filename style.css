@@ -23,3 +23,50 @@ nav a:hover{
 	background-color: black;
 	color: white;
 }
+.column{
+	float: left;
+	padding: 10px;
+}
+.column.side{
+	width: 25%;
+}
+.column.side{
+	width: 50%
+}
+.column.middle{
+	width: 50%;
+}
+div.gallery{
+	margin: 5px;
+	border: 5px solid black;
+	float: left;
+	width: 180px;
+}
+div.gallery:hover{
+	border:5px solid red;
+}
+div.gallery img{
+	width: 100%;
+	height: auto;
+}
+div.desc{
+	padding: 15pxl;
+	text-align: center;
+}
+
+@media screen and (max-width: 617px){
+.column.side,.column.middle{
+		width: 100%;
+	}
+	p{
+		text-align: justify;
+	}
+}
+footer{
+	clear: both;
+	background-color: green;
+	padding: center;
+	text-align: center;
+	color: white;
+	font-family: "Comic Sans Ms";
+}
